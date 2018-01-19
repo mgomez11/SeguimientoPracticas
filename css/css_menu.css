@@ -1,0 +1,107 @@
+
+.control-menu{
+margin: 0!important;
+
+}
+
+.menu-col{
+padding: 0!important;
+
+}
+
+.main_page{
+width: 100%;
+
+}
+
+.menu_login{
+height: 30px;
+background-color: #23282C;
+color: #999999;
+
+}
+
+.menu_izquierda{
+height: calc(100vh - 30px);
+background-color: #23282C;
+color:#999999;
+
+}
+
+.contenido_page{
+height: calc(100vh - 30px);
+overflow-y: scroll;
+
+}
+
+.menu_izquierda ul{
+margin-bottom: 0;
+
+}
+.categoria{
+width: 100%;
+float: left!important;
+list-style-type: none;
+transition: 0.25s;
+height: 30px;
+overflow: hidden;
+
+}
+
+.categoria:hover{
+cursor: pointer;
+background-color: #3d474f!important;
+
+}
+.subcategoria{
+background-color: #1E8CBE;
+height: 90px;
+
+}
+
+.header_categoria{
+height: 30px;
+
+}
+
+.menu_izquierda p{
+vertical-align: middle;
+margin-left: 10px;
+line-height: 30px; 
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu_login p{
+font-family: 'Open Sans', sans-serif;
+margin-left: 10px;
+line-height: 30px; 
+cursor: pointer;
+
+}
+
+.enlace{
+height: 30px;
+color: #a0daff;
+}
+
+.right{
+display: inline-block;
+float: right;
+margin-right: 15px;
+cursor: default;
+
+}
+
+.caret{
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 2px;
+vertical-align: middle;
+border-top: 4px solid;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+transition: 0.25s;
+
+}
